@@ -24,7 +24,7 @@ bl="\033[1;36;40m"
 print("1. DDos Ip Address")
 print("2. Wiev Url Ip Address")
 print("3. DDos site logs")
-op=int(raw_input("Options: "))
+op=int(input("Options: "))
 if(op==1):
  os.system("python2 ddos.py")
 elif(op==2):
@@ -36,4 +36,4 @@ else:
  time.sleep(1.6)
  os.system("cd")
  os.system("cd ‌ddos")
- os.system("python2 main.py")
+ os.system("python main.py")
