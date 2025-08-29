@@ -15,7 +15,7 @@ def cls():
     elif system == 'Linux':
         os.system("clear")
 cls()
-os.system("python src/logo.py")
+os.system("python logo.py")
 
 target = input(f"{GREEN}Enter Target URL: ")
 target.replace("http://", "")
