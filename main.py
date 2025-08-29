@@ -4,8 +4,8 @@ import random
 import sys
 
 os.system("clear")
-os.system("python src/logo.py")
-os.system("python src/serv.py")
+os.system("python logo.py")
+os.system("python serv.py")
 
 Green="\033[1;33m"
 Blue="\033[1;34m"
@@ -26,14 +26,14 @@ print("2. Wiev Url Ip Address")
 print("3. DDos site logs")
 op=int(raw_input("Options: "))
 if(op==1):
- os.system("python2 src/ddos.py")
+ os.system("python2 ddos.py")
 elif(op==2):
- os.system("python src/Url.py")
+ os.system("python Url.py")
 elif(op==3):
- os.system("python src/log-ddos.py")
+ os.system("python log-ddos.py")
 else:
  print("\033[1;31;40mInvalid input. Reloading Tools!") 
  time.sleep(1.6)
  os.system("cd")
- os.system("cd Ultra-DDos")
+ os.system("cd ‌ddoser")
  os.system("python2 main.py")
